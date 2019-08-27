@@ -47,7 +47,7 @@ disqusShortname = "yourdiscussshortname"
 [params]
     since = 2016
     author = "孙继超"               # Author's name
-    subtitle = "A Hugo theme"       # Subtitle
+    subtitle = "一个苦逼程序员的个人记事本"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
@@ -57,7 +57,7 @@ disqusShortname = "yourdiscussshortname"
     pinterest_verification = ""
     baidu_verification = ""
 
-    avatar = "/images/me/avatar.jpg" #comment it to use gravatar
+    avatar = "/images/me/avatar.png" #comment it to use gravatar
     socialShare = true
 
     description = "" # site description
@@ -68,16 +68,17 @@ disqusShortname = "yourdiscussshortname"
     license= '本文采用《<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>》进行许可'
 
 [params.gravatar]
-    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+    #email = "sunjichao.cn@gmail.com"   #uncomment and insert your email address to use gravatar
 
 
 [params.social]
-    GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
+    GitHub = "sunjichaocom"
+    Weibo = "pigletohdear"
+    Email = "mail@sunjichao.com"
+    #Linkedin = "xxxx"
+    #Twitter = "xxxx"
     #Instagram = "xxxx"
-    #Email   = "xxxx"
-    Facebook = "xxxx"
+    #Facebook = "xxxx"
     #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
@@ -92,7 +93,6 @@ disqusShortname = "yourdiscussshortname"
     #Codepen = "xxxx"
     #Bitbucket = "xxxx"
     #Stackoverflow = "xxxxx"
-    #Weibo = "xxxx"
     #Odnoklassniki = "xxxx"
     #VKontakte = "xxxx"
     #Flickr = "xxxx"
@@ -133,24 +133,24 @@ disqusShortname = "yourdiscussshortname"
 [params.share]
 Twitter = true
 Facebook = true
-#Reddit = true
+Reddit = true
 Linkedin = true
-#Pinterest = true
+Pinterest = true
 #HackerNews = true
 #Mix = true
-#Tumblr = true
+Tumblr = true
 #VKontakte = true
-#Douban = true
-#Weibo = true
+Douban = true
+Weibo = true
 
 # Used only for Seo schema
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 [author]
-  name = "Fastbyte01"
+  name = "孙继超"
 
   [params.publisher]
-    name = "Fastbyte01"
+    name = "孙继超"
 
     [params.publisher.logo]
       url = "logo.png"
@@ -184,8 +184,8 @@ clientSecret = "" # Your client secret
   visitor = true
 
 [params.utterances]       # https://utteranc.es/
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
+    owner = "sunjichaocom"              # Your GitHub ID
+    repo = "website-Develop"            # The repo to store comments
 
 [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
     owner = ""              # Your GitHub ID

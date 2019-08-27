@@ -1,6 +1,12 @@
 {{ with .Site.Params.Social.Github }}
 <a href="https://github.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-github"></i></a>
 {{ end }}
+{{ with .Site.Params.Social.Email}}
+<a href="mailto:{{.}}" rel="me noopener noreffer"><i class="iconfont icon-mail" target="_blank"></i></a>
+{{ end }}
+{{ with .Site.Params.Social.Weibo}}
+<a href="https://weibo.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-weibo"></i></a>
+{{ end }}
 {{ with .Site.Params.Social.LinkedIn }}
 <a href="https://linkedin.com/in/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-linkedin"></i></a>
 {{ end }}
@@ -9,9 +15,6 @@
 {{ end }}
 {{ with .Site.Params.Social.Instagram }}
 <a href="https://www.instagram.com/{{.}}/" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-instagram"></i></a> 
-{{ end }}
-{{ with .Site.Params.Social.Email}}
-<a href="mailto:{{.}}" rel="me noopener noreffer"><i class="iconfont icon-mail" target="_blank"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Facebook}}
 <a href="https://facebook.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-facebook"></i></a>
@@ -57,9 +60,6 @@
 {{ end }}
 {{ with .Site.Params.Social.Stackoverflow}}
 <a href="https://stackoverflow.com/users/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-stack-overflow"></i></a>
-{{ end }}
-{{ with .Site.Params.Social.Weibo}}
-<a href="https://weibo.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-weibo"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Odnoklassniki}}
 <a href="https://ok.ru/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-odnoklassniki"></i></a>
