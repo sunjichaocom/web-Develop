@@ -1,14 +1,13 @@
 baseURL = "https://dev.sunjichao.com"
 languageCode = "zh"
 defaultContentLanguage = "zh"
-title = "SunJiChao"
+title = "孙继超的开发笔记"
 theme = "KeepIt"
-
 paginate = 12
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = ""
-disqusShortname = "yourdiscussshortname"
+disqusShortname = ""
 
 [sitemap]
   changefreq = "monthly"
@@ -46,10 +45,11 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     since = 2016
-    author = "孙继超"               # Author's name
-    subtitle = "一个苦逼程序员的个人记事本"       # Subtitle
-    cdn_url = ""           # Base CDN URL
-    home_mode = "" # post or other
+    author = "孙继超"                             # Author's name
+    title = "SunJiChao"                           # Title on Page
+    subtitle = "一个苦逼程序员的开发记事本"       # Subtitle
+    cdn_url = ""                                  # Base CDN URL
+    home_mode = ""                                # post or other
 
     google_verification = ""
     bing_verification = ""
@@ -60,8 +60,8 @@ disqusShortname = "yourdiscussshortname"
     avatar = "/images/me/avatar.png" #comment it to use gravatar
     socialShare = true
 
-    description = "" # site description
-    keywords = "" # site keywords
+    description = "一个苦逼程序员的开发记事本" # site description
+    keywords = "孙继超,孙继超的开发笔记,SunJiChao,Sun" # site keywords
 
     beian = "辽ICP备07007806号"
 
@@ -136,12 +136,12 @@ Facebook = true
 Reddit = true
 Linkedin = true
 Pinterest = true
-#HackerNews = true
-#Mix = true
 Tumblr = true
-#VKontakte = true
 Douban = true
 Weibo = true
+#HackerNews = true
+#Mix = true
+#VKontakte = true
 
 # Used only for Seo schema
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
