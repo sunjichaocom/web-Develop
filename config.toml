@@ -193,3 +193,7 @@ clientSecret = "" # Your client secret
     clientId = ""           # Your client ID
     clientSecret = ""       # Your client secret
 
+[params.github]
+    username = "sunjichaocom"
+    repo = "website-Develop"
+    branch = "writing"

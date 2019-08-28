@@ -27,6 +27,9 @@ other = "Words"
 [Link]
 other = "链接："
 
+[Maintenance]
+other = "维护："
+
 [Tag]
 other = "Tag(s)"
 

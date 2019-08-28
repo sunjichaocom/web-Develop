@@ -54,7 +54,7 @@
             <p class="copyright-item">
                 <span>{{ i18n "Author" }}</span>
                 <span>{{ . }} </span>
-                </p>
+            </p>
             {{ end }}
 
             {{ with .Permalink }}
@@ -70,6 +70,18 @@
                 <span>{{ partial "share-links" . }}</span>
                 {{ end }}
             </p>
+
+            {{ with .Site.Params.github }}
+            <p class="copyright-item">
+                <span>{{ i18n "Maintenance" }}</span>
+                <span>
+                <i class="iconfont icon-github"></i>
+                <a href="https://raw.githubusercontent.com/{{ .username }}/{{ .repo }}/{{ .branch }}/content/{{ replace $.File.Path "\\" "/" }}"> Raw </a> |
+                <a href="https://github.com/{{ .username }}/{{ .repo }}/edit/{{ .branch }}/content/{{ replace $.File.Path "\\" "/" }}"> Edit </a> |
+                <a href="https://github.com/{{ .username }}/{{ .repo }}/commits/{{ .branch }}/content/{{ replace $.File.Path "\\" "/" }}"> History </a>
+                </span>
+            </p>
+            {{ end }}
 
             {{ with .Site.Params.license }}
             <p class="copyright-item">
