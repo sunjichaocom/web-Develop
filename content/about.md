@@ -1,7 +1,6 @@
 +++
 title = "About"
 date = "2019-08-28"
-aliases = ["about-us","about-hugo","contact"]
 +++
 
 ### 关于本站
