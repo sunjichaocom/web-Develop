@@ -1,0 +1,890 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>孙继超的开发笔记 on 孙继超的开发笔记</title><link>https://dev.sunjichao.com/</link><description>Recent content in 孙继超的开发笔记 on 孙继超的开发笔记</description><generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 28 Aug 2019 12:10:30 +0800</lastBuildDate><atom:link href="https://dev.sunjichao.com/" rel="self" type="application/rss+xml"/><item><title>Markdown基本语法</title><link>https://dev.sunjichao.com/2019/markdown-basic-syntax/</link><pubDate>Wed, 28 Aug 2019 12:10:30 +0800</pubDate><guid>https://dev.sunjichao.com/2019/markdown-basic-syntax/</guid><description>
+&lt;blockquote&gt;
+&lt;p&gt;笨脑瓜总记不住，整理一下以后常用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;1-标题&#34;&gt;1. 标题&lt;/h2&gt;
+&lt;p&gt;在想要设置为标题的文字前面加&lt;code&gt;#&lt;/code&gt;来表示&lt;/p&gt;
+&lt;p&gt;一个&lt;code&gt;#&lt;/code&gt;是一级标题，二个&lt;code&gt;#&lt;/code&gt;是二级标题，以此类推。支持六级标题。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# 这是一级标题
+## 这是二级标题
+### 这是三级标题
+#### 这是四级标题
+##### 这是五级标题
+###### 这是六级标题
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;这是一级标题&#34;&gt;这是一级标题&lt;/h1&gt;
+&lt;h2 id=&#34;这是二级标题&#34;&gt;这是二级标题&lt;/h2&gt;
+&lt;h3 id=&#34;这是三级标题&#34;&gt;这是三级标题&lt;/h3&gt;
+&lt;h4 id=&#34;这是四级标题&#34;&gt;这是四级标题&lt;/h4&gt;
+&lt;h5 id=&#34;这是五级标题&#34;&gt;这是五级标题&lt;/h5&gt;
+&lt;h6 id=&#34;这是六级标题&#34;&gt;这是六级标题&lt;/h6&gt;
+&lt;h2 id=&#34;2-字体&#34;&gt;2. 字体&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;加粗&lt;/p&gt;
+&lt;p&gt;要加粗的文字左右分别用两个&lt;code&gt;*&lt;/code&gt;号包起来&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;斜体&lt;/p&gt;
+&lt;p&gt;要倾斜的文字左右分别用一个&lt;code&gt;*&lt;/code&gt;号包起来&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;斜体加粗&lt;/p&gt;
+&lt;p&gt;要倾斜和加粗的文字左右分别用三个&lt;code&gt;*&lt;/code&gt;号包起来&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;删除线&lt;/p&gt;
+&lt;p&gt;要加删除线的文字左右分别用两个&lt;code&gt;~~&lt;/code&gt;号包起来&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;**这是加粗的文字**
+*这是倾斜的文字*
+***这是斜体加粗的文字***
+~~这是加删除线的文字~~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这是加粗的文字&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这是倾斜的文字&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;这是斜体加粗的文字&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;这是加删除线的文字&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;3-引用&#34;&gt;3. 引用&lt;/h2&gt;
+&lt;p&gt;在引用的文字前加&amp;gt;即可。引用也可以嵌套，如加两个&amp;gt;&amp;gt;三个&amp;gt;&amp;gt;&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;gt;这是引用的内容
+&amp;gt;&amp;gt;这是引用的内容
+&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;这是引用的内容
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是引用的内容
+&amp;gt;这是引用的内容
+&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;这是引用的内容&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;4-分割线&#34;&gt;4. 分割线&lt;/h2&gt;
+&lt;p&gt;三个或者三个以上的 - 或者 * 都可以。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+----
+***
+*****
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;5-图片&#34;&gt;5. 图片&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;语法：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![图片alt](图片地址 &amp;quot;图片title&amp;quot;)
+图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
+图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Sun](https://avatars2.githubusercontent.com/u/21169748?v=4&amp;amp;s=300 &amp;quot;Sun&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://avatars2.githubusercontent.com/u/21169748?v=4&amp;amp;s=300&#34; alt=&#34;Sun&#34; title=&#34;Sun&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;6-超链接&#34;&gt;6. 超链接&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;语法：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;[超链接名](超链接地址 &amp;quot;超链接title&amp;quot;)
+title可加可不加
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;[Github](https://github.com)
+[Coding](https://coding.net)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://coding.net&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Coding&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;7-列表&#34;&gt;7. 列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;无序列表&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;语法：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;无序列表用 - + * 任何一种都可以
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- 列表内容
++ 列表内容
+* 列表内容
+注意：- + * 跟内容之间都要有一个空格
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有序列表&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;语法：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;数字加点
+注意：序号跟内容之间要有空格
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;1. 列表内容
+2. 列表内容
+3. 列表内容
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;li&gt;列表内容&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;列表嵌套&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;语法：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;上一级和下一级之间敲三个空格即可
+注意：关于嵌套部分我有点蒙，有说三个空格的，有说四个空格的，也有说两个Tab的。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;1. one
+1. one-1
+2. one-2
+2. two
+* two-1
+* two-2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;one
+&lt;ol&gt;
+&lt;li&gt;one-1&lt;/li&gt;
+&lt;li&gt;one-2&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;two
+&lt;ul&gt;
+&lt;li&gt;two-1&lt;/li&gt;
+&lt;li&gt;two-2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;8-表格&#34;&gt;8. 表格&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;语法：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容|内容|内容
+第二行分割表头和内容。
+- 有一个就行，为了对齐，多加了几个
+文字默认居左
+-两边加：表示文字居中
+-右边加：表示文字居右
+注：原生的语法两边都要用 | 包起来。此处省略
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;排行|绰号
+---|:--:
+老大|一招就死
+老二|非死不可
+老三|死缠烂打
+老四|永远不死
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;排行&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;绰号&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;老大&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;一招就死&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;老二&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;非死不可&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;老三&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;死缠烂打&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;老四&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;永远不死&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;9-代码&#34;&gt;9. 代码&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```javascript
+var num = 0;
+for (var i = 0; i &amp;lt; 5; i++) {
+num+=i;
+}
+console.log(num);
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var num = 0;
+for (var i = 0; i &amp;lt; 5; i++) {
+num+=i;
+}
+console.log(num);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;支持语法列表：&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;语法名&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;简写&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;1C&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;1c&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ABNF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;abnf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Access logs&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;accesslog&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Ada&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ada&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ARM assembler&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;armasm, arm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AVR assembler&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;avrasm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;ActionScript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;actionscript, as&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Apache&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;apache, apacheconf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AppleScript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;applescript, osascript&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AsciiDoc&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;asciidoc, adoc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AspectJ&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;aspectj&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AutoHotkey&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;autohotkey&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;AutoIt&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;autoit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Awk&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;awk, mawk, nawk, gawk&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Axapta&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;axapta&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Bash&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;bash, sh, zsh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Basic&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;basic&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;BNF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;bnf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Brainfuck&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;brainfuck, bf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;C#&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;cs, csharp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;C++&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;cpp, c, cc, h, c++, h++, hpp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;C/AL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;cal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cache Object Script&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;cos, cls&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CMake&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;cmake, cmake.in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Coq&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;coq&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CSP&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;csp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CSS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;css&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Cap’n Proto&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;capnproto, capnp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Clojure&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;clojure, clj&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;CoffeeScript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;coffeescript, coffee, cson, iced&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Crmsh&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;crmsh, crm, pcmk&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Crystal&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;crystal, cr&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;D&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;d&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;DNS Zone file&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;dns, zone, bind&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;DOS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;dos, bat, cmd&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Dart&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;dart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Delphi&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;delphi, dpr, dfm, pas, pascal, freepascal, lazarus, lpr, lfm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Diff&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;diff, patch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Django&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;django, jinja&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Dockerfile&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;dockerfile, docker&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;dsconfig&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;dsconfig&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;DTS (Device Tree)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;dts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Dust&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;dust, dst&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;EBNF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ebnf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Elixir&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;elixir&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Elm&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;elm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Erlang&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;erlang, erl&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Excel&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;excel, xls, xlsx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;F#&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;fsharp, fs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;FIX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;fix&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Fortran&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;fortran, f90, f95&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;G-Code&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;gcode, nc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Gams&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;gams, gms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;GAUSS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;gauss, gss&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Gherkin&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;gherkin&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Go&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;go, golang&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Golo&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;golo, gololang&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Gradle&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;gradle&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Groovy&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;groovy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;HTML, XML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xml, html, xhtml, rss, atom, xjb, xsd, xsl, plist&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;HTTP&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;http, https&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Haml&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;haml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Handlebars&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;handlebars, hbs, html.hbs, html.handlebars&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Haskell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;haskell, hs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Haxe&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;haxe, hx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Hy&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;hy, hylang&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Ini&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ini&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Inform7&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;inform7, i7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;IRPF90&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;irpf90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;JSON&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;json&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Java&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;java, jsp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;JavaScript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;javascript, js, jsx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Leaf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;leaf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Lasso&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;lasso, ls, lassoscript&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Less&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;less&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LDIF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ldif&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Lisp&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;lisp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LiveCode Server&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;livecodeserver&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;LiveScript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;livescript, ls&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Lua&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;lua&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Makefile&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;makefile, mk, mak&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Markdown&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;markdown, md, mkdown, mkd&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Mathematica&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mathematica, mma&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Matlab&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;matlab&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Maxima&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;maxima&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Maya Embedded Language&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Mercury&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mercury&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Mizar&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mizar&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Mojolicious&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;mojolicious&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Monkey&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;monkey&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Moonscript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;moonscript, moon&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;N1QL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;n1ql&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;NSIS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;nsis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Nginx&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;nginx, nginxconf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Nimrod&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;nimrod, nim&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Nix&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;nix&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;OCaml&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ocaml, ml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Objective C&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;objectivec, mm, objc, obj-c&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;OpenGL Shading Language&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;glsl&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;OpenSCAD&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;openscad, scad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Oracle Rules Language&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ruleslanguage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Oxygene&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;oxygene&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PF&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;pf, pf.conf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PHP&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;php, php3, php4, php5, php6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Parser3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;parser3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Perl&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;perl, pl, pm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Pony&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;pony&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;PowerShell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;powershell, ps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Processing&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;processing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Prolog&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;prolog&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Protocol Buffers&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;protobuf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Puppet&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;puppet, pp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Python&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;python, py, gyp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Python profiler results&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;profile&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Q&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;k, kdb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;QML&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;qml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;R&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;r&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RenderMan RIB&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;rib&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;RenderMan RSL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;rsl&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Roboconf&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;graph, instances&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Ruby&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ruby, rb, gemspec, podspec, thor, irb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Rust&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;rust, rs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SCSS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;scss&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SQL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;sql&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;STEP Part 21&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;p21, step, stp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Scala&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;scala&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Scheme&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;scheme&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Scilab&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;scilab, sci&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Shell&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;shell, console&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Smali&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;smali&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Smalltalk&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;smalltalk, st&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Stan&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;stan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Stata&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;stata&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Stylus&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;stylus, styl&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;SubUnit&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;subunit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Swift&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;swift&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Test Anything Protocol&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;tap&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Tcl&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;tcl, tk&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TeX&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;tex&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Thrift&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;thrift&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TP&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;tp&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Twig&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;twig, craftcms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;TypeScript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;typescript, ts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;VB.Net&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;vbnet, vb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;VBScript&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;vbscript, vbs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;VHDL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;vhdl&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Vala&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;vala&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Verilog&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;verilog, v&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Vim Script&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;vim&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;x86 Assembly&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;x86asm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;XL&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xl, tao&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;XQuery&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;xpath, xq&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Zephir&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;zephir, zep&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;10-流程图&#34;&gt;10. 流程图&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;示例：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;st=&amp;gt;start: Start|past:&amp;gt;http://www.google.com[blank]
+e=&amp;gt;end: End:&amp;gt;http://www.google.com
+op1=&amp;gt;operation: My Operation|past
+op2=&amp;gt;operation: Stuff|current
+sub1=&amp;gt;subroutine: My Subroutine|invalid
+cond=&amp;gt;condition: Yes
+or No?|approved:&amp;gt;http://www.google.com
+c2=&amp;gt;condition: Good idea|rejected
+io=&amp;gt;inputoutput: catch something...|request
+st-&amp;gt;op1(right)-&amp;gt;cond
+cond(yes, right)-&amp;gt;c2
+cond(no)-&amp;gt;sub1(left)-&amp;gt;op1
+c2(yes)-&amp;gt;io-&amp;gt;e
+c2(no)-&amp;gt;op2-&amp;gt;e
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;效果如下：&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-flow&#34;&gt;st=&amp;gt;start: Start|past:&amp;gt;http://www.google.com[blank]
+e=&amp;gt;end: End:&amp;gt;http://www.google.com
+op1=&amp;gt;operation: My Operation|past
+op2=&amp;gt;operation: Stuff|current
+sub1=&amp;gt;subroutine: My Subroutine|invalid
+cond=&amp;gt;condition: Yes
+or No?|approved:&amp;gt;http://www.google.com
+c2=&amp;gt;condition: Good idea|rejected
+io=&amp;gt;inputoutput: catch something...|request
+st-&amp;gt;op1(right)-&amp;gt;cond
+cond(yes, right)-&amp;gt;c2
+cond(no)-&amp;gt;sub1(left)-&amp;gt;op1
+c2(yes)-&amp;gt;io-&amp;gt;e
+c2(no)-&amp;gt;op2-&amp;gt;e
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;#添加下面代码
+&lt;div class=&#34;mermaid&#34;&gt;
+graph LR
+A &amp;mdash; B
+B&amp;ndash;&amp;gt;C[fa:fa-ban forbidden]
+B&amp;ndash;&amp;gt;D(fa:fa-spinner);&lt;/p&gt;</description></item><item><title>About</title><link>https://dev.sunjichao.com/about/</link><pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate><guid>https://dev.sunjichao.com/about/</guid><description>
+&lt;h3 id=&#34;关于本站&#34;&gt;关于本站&lt;/h3&gt;
+&lt;p&gt;未完待续…&lt;/p&gt;
+&lt;h3 id=&#34;关于版权&#34;&gt;关于版权&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;本站博文采用《&lt;strong&gt;&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;知识共享署名-非商业性使用 4.0 国际许可协议&lt;/a&gt;&lt;/strong&gt;》进行许可。&lt;/li&gt;
+&lt;li&gt;未特别声明，您可以将本站文章用于非盈利目的，但请保留作者信息及文章原始链接。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关于我&#34;&gt;关于我&lt;/h3&gt;
+&lt;p&gt;未完待续…&lt;/p&gt;</description></item></channel></rss>
